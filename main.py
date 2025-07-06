@@ -172,6 +172,3 @@ if __name__ == "__main__":
     weatherapp = WeatherApp()
     weatherapp.show()
     sys.exit(app.exec_()) 
-
-
-    # {'location': {'name': 'Miami', 'region': 'Florida', 'country': 'United States of America', 'lat': 25.7739, 'lon': -80.1939, 'tz_id': 'America/New_York', 'localtime_epoch': 1751529449, 'localtime': '2025-07-03 03:57'}, 'current': {'last_updated_epoch': 1751528700, 'last_updated': '2025-07-03 03:45', 'temp_c': 26.7, 'temp_f': 80.1, 'is_day': 0, 'condition': {'text': 'Partly cloudy', 'icon': '//cdn.weatherapi.com/weather/64x64/night/116.png', 'code': 1003}, 'wind_mph': 8.5, 'wind_kph': 13.7, 'wind_degree': 186, 'wind_dir': 'S', 'pressure_mb': 1016.0, 'pressure_in': 30.0, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 87, 'cloud': 75, 'feelslike_c': 30.7, 'feelslike_f': 87.2, 'windchill_c': 27.5, 'windchill_f': 81.5, 'heatindex_c': 32.3, 'heatindex_f': 90.2, 'dewpoint_c': 25.2, 'dewpoint_f': 77.4, 'vis_km': 16.0, 'vis_miles': 9.0, 'uv': 0.0, 'gust_mph': 11.5, 'gust_kph': 18.5}}
